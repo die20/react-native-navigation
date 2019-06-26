@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/wix/react-native-navigation.git"
   },
-  "main": "lib/src/index.js",
+  "main": "lib/src/index.ts",
   "typings": "lib/src/index.d.ts",
   "scripts": {
     "build": "rm -rf ./lib/src && tsc",
@@ -94,10 +94,10 @@
       "<rootDir>/integration/"
     ],
     "collectCoverageFrom": [
-      "lib/src/**/*.js",
+      "lib/src/**/*.ts",
       "integration/**/*.js",
-      "!lib/src/index.js",
-      "!lib/src/Navigation.js",
+      "!lib/src/index.ts",
+      "!lib/src/Navigation.ts",
       "!lib/src/adapters/**/*",
       "!lib/src/interfaces/**/*",
       "!lib/src/**/*.test.*",
