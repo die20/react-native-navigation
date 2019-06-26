@@ -3,7 +3,7 @@ package com.reactnativenavigation.mocks;
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.reactnativenavigation.utils.ImageLoader;
 
