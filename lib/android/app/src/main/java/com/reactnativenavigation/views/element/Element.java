@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.Rect;
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
-import androidx.annotation.NonNullable;
+import androidx.annotation.Nullable;
 import android.text.SpannableString;
 import android.text.SpannedString;
 import android.view.View;
