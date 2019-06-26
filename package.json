@@ -16,10 +16,10 @@
     "type": "git",
     "url": "https://github.com/wix/react-native-navigation.git"
   },
-  "main": "lib/dist/index.js",
-  "typings": "lib/dist/index.d.ts",
+  "main": "lib/src/index.js",
+  "typings": "lib/src/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./lib/dist && tsc",
+    "build": "rm -rf ./lib/src && tsc",
     "xcode": "open playground/ios/playground.xcodeproj",
     "install-android": "node ./scripts/install-android",
     "uninstall-android": "cd playground/android && ./gradlew uninstallAll",
@@ -90,17 +90,17 @@
     },
     "roots": [
       "<rootDir>/node_modules/",
-      "<rootDir>/lib/dist/",
+      "<rootDir>/lib/src/",
       "<rootDir>/integration/"
     ],
     "collectCoverageFrom": [
-      "lib/dist/**/*.js",
+      "lib/src/**/*.js",
       "integration/**/*.js",
-      "!lib/dist/index.js",
-      "!lib/dist/Navigation.js",
-      "!lib/dist/adapters/**/*",
-      "!lib/dist/interfaces/**/*",
-      "!lib/dist/**/*.test.*",
+      "!lib/src/index.js",
+      "!lib/src/Navigation.js",
+      "!lib/src/adapters/**/*",
+      "!lib/src/interfaces/**/*",
+      "!lib/src/**/*.test.*",
       "!integration/**/*.test.*",
       "!integration/*.test.*"
     ],
