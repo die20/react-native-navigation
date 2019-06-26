@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.res.Resources;
 import androidx.annotation.NonNull;
 import androidx.drawerlayout.widget.DrawerLayout;
-import android.support.v4.widget.DrawerLayout.LayoutParams;
+import androidx.drawerlayout.widget.DrawerLayout.LayoutParams;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
